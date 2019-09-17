@@ -1,0 +1,20 @@
+{
+  "name": "dat-react-shopping-list-websocket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@jimpick/hyperdrive-hyperdb-backend": "^9.12.3-10",
+    "express": "^4.17.1",
+    "express-ws": "^4.0.0",
+    "hyperdiscovery": "^10.0.1",
+    "pump": "^3.0.0",
+    "random-access-memory": "^3.1.1",
+    "websocket-stream": "^5.5.0"
+  }
+}

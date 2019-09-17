@@ -1,0 +1,32 @@
+A  B  C  D
+
+
+
+lookup(k) ->
+  max(lookup(A, k), lookup(B, k), ...)
+
+trie: [(feed, seq), ...]
+
+-> trie: [seq, ...]
+
+get(foo) --> nil
+
+# super fast
+put(k, v)
+
+# writers * log(size)
+get(k)
+
+getClosest(k) -> node
+
+node.clock = [1, 4, 10, 11]
+node.cousins[feedId] ...
+
+
+
+node.cousins[
+  a,
+  b,
+  c,
+  d
+]
